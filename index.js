@@ -268,8 +268,8 @@ function showdrink(my_json) {
     var img = document.createElement('img');
     img.src = filtered_tails_by_season[min_index].image;
     img.classList.add("img-rounded", "tailimg");
-    img.style.width = "auto";
-    img.style.height = "500px";
+    img.style.width = "350";
+    img.style.height = "400px";
 
 
     document.getElementById('image_insert').innerHTML = '';
